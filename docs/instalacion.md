@@ -64,7 +64,6 @@ Dirígete a la siguiente ruta:
     ```
     SCCEEC-TCN
     ```
-
 ---
 
 ## Actualizar Pecano (con versión actual)
@@ -107,8 +106,6 @@ Luego en:
 
 !!! info inline end "OJO"
     Pedirá reiniciar, **NO** reiniciar en este momento
-
-
 
 Después:
 

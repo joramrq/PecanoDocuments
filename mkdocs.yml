@@ -1,9 +1,18 @@
 site_name: Pecano ERP
 site_url: https://joramrq.github.io/PecanoDocuments/
+site_author: Kedy Joram
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
+
+repo_name: joramrq/PecanoDocuments
 repo_url: https://github.com/joramrq/PecanoDocuments
 theme:
   name: material
-  logo: imagenes/pecano.png
+  favicon: imagenes/pecano2.png
+  icon:
+    logo: material/palm-tree
+    repo: fontawesome/brands/github
   features:
     - content.code.copy
     - header.autohide
@@ -17,13 +26,16 @@ theme:
     
 nav:
   - Inicio: index.md
-  - Instalacion: instalacion.md
+  - Instalación:
+      - General: instalacion.md
+      - Para Playa: instalacionplaya.md
   - Configuración: configuracion.md
   - Módulos:
       - Ventas: modulos/ventas.md
       - Compras: modulos/compras.md
       - Contabilidad: modulos/contabilidad.md
-
+      - Logisitica:
+        - Reportes: modulos/logistica_reportes.md
 markdown_extensions:
   - admonition
   - pymdownx.details
