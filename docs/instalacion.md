@@ -79,7 +79,6 @@ Para actualizar pecano realiza los siguientes pasos :
     C:/Aplicaciones/Pecano
     ```
 
-
 !!! note "Renombrar carpeta requerida"
     Debe renombrar la carpeta `Formatos` ubicada en:
 
@@ -94,8 +93,8 @@ Para actualizar pecano realiza los siguientes pasos :
 
     Asegúrese de que ningún proceso esté utilizando la carpeta antes de realizar el cambio.
 
-
 Desde la carpeta actualizada:
+
 
   - Ejecutar como administrador: `z – Actualizar Pecano.bat`
 
