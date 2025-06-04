@@ -1,0 +1,766 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../configuracion/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Instalacion - Pecano ERP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#instalacion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Pecano ERP" class="md-header__button md-logo" aria-label="Pecano ERP" data-md-component="logo">
+      
+  <img src="../imagenes/pecano.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pecano ERP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Instalacion
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://joramrq.github.io/PecanoDocuments/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Joramrq
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Pecano ERP" class="md-nav__button md-logo" aria-label="Pecano ERP" data-md-component="logo">
+      
+  <img src="../imagenes/pecano.png" alt="logo">
+
+    </a>
+    Pecano ERP
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://joramrq.github.io/PecanoDocuments/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Joramrq
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Instalacion
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instalacion
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalar-sql-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar SQL Server
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalar-pecano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar Pecano
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actualizar-pecano-con-version-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actualizar Pecano (con versión actual)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-que-la-computadora-este-en-la-lista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verificar que la computadora esté en la lista
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuracion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuración
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Módulos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Módulos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulos/ventas.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ventas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulos/compras.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compras
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulos/contabilidad.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contabilidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalar-sql-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar SQL Server
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalar-pecano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar Pecano
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actualizar-pecano-con-version-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actualizar Pecano (con versión actual)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-que-la-computadora-este-en-la-lista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verificar que la computadora esté en la lista
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="instalacion">Instalación</h1>
+<p>Sigue estos pasos para instalar PECANO en tu entorno de desarrollo:</p>
+<h2 id="instalar-sql-server">Instalar SQL Server</h2>
+<p>Dirígete a la siguiente ruta:</p>
+<div class="highlight"><pre><span></span><code>PECANO/SQL Server 2000 Personal/x86/setupsql.exe
+</code></pre></div>
+<ul>
+<li>Hacer clic derecho en <code>setupsql.exe</code> &gt; <strong>Propiedades</strong> &gt; <strong>Compatibilidad</strong></li>
+<li>Ejecutar este programa en modo de compatibilidad <code>Windows XP (Service Pack 2)</code></li>
+<li>Habilitar <code>Ejecutar este programa como administrador</code></li>
+</ul>
+<p>Luego de aplicar los cambios y aceptar la configuracion</p>
+<ul>
+<li>Ejecutar <code>setupsql.exe</code> como administrador</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia</p>
+<p>Seguramente aparecerán errores durante la instalación de SQL server. Reiniciar el equipo y volver a ejecutar el instalador solo una vez mas</p>
+</div>
+<figure>
+<p><img alt="Información del usuario" src="../imagenes/instalacion/infousuario.png" width="350" /></p>
+<figcaption>
+<p>Este paso consiste en ingresar los datos básicos del usuario, seleccioanr <strong>Siguiente</strong>.</p>
+</figcaption>
+</figure>
+<figure>
+<p><img alt="Definición de instalación" src="../imagenes/instalacion/definicioninst.png" width="350" /></p>
+<figcaption>
+<p>Aquí se define el tipo de instalación. Selecciona la opción <strong>Solo Conectividad</strong>.</p>
+</figcaption>
+</figure>
+<hr />
+<h2 id="instalar-pecano">Instalar Pecano</h2>
+<p>Dirígete a la siguiente ruta:
+    <div class="highlight"><pre><span></span><code>Instalador Pecano/INSTALADOR_PECANO
+</code></pre></div></p>
+<ul>
+<li>Ejecuta el archivo <code>INSTALADOR_PECANO</code> como <strong>administrador</strong>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Contraseña requerida</p>
+<p>Durante la instalación se solicitará una contraseña. Ingrésala cuando se te indique:
+<div class="highlight"><pre><span></span><code>1234567
+</code></pre></div></p>
+</div>
+<ul>
+<li>Ejecuta el archivo <code>ConexionPecano_ERPBusiness</code> como <strong>administrador</strong>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Contraseña generada automáticamente</p>
+<p>La contraseña se genera en base a la hora actual del sistema (momento de ejecución), siguiendo esta fórmula:
+<code>(Hora + Mes)(Día)(Minuto)</code><br />
+A continuación, se muestra la contraseña en tiempo real. Puede actualizarse manualmente con el botón para reflejar la hora exacta.
+<div style="display: flex; align-items: center; gap: 1em; margin-bottom: 1em;">
+    <div id="clave-generada" style="
+        font-size: 1em; 
+        background: #272c34; 
+        color: #fff; 
+        padding: 0.5em 1em; 
+        border-radius: 4px; 
+        width: fit-content;">
+    </div>
+    <button id="btn-actualizar" style="
+        padding: 0.5em 1em;
+        font-size: 1em;
+        border-radius: 4px;
+        border: none;
+        background-color:rgb(38, 143, 41);
+        color: white;
+        cursor: pointer;
+        white-space: nowrap;">
+        Actualizar contraseña
+    </button>
+</div></p>
+</div>
+<ul>
+<li>Cuando se solicite el nombre del servidor central, utilice: </li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nombre del servidor central</p>
+<div class="highlight"><pre><span></span><code>SCCEEC-TCN
+</code></pre></div>
+</div>
+<hr />
+<h2 id="actualizar-pecano-con-version-actual">Actualizar Pecano (con versión actual)</h2>
+<p>Para actualizar pecano realiza los siguientes pasos :</p>
+<ul>
+<li>Copiar archivos de la nueva versión a:
+    <div class="highlight"><pre><span></span><code>C:/Aplicaciones/Componentes Pecano
+</code></pre></div>
+    <div class="highlight"><pre><span></span><code>C:/Aplicaciones/Pecano
+</code></pre></div></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Renombrar carpeta requerida</p>
+<p>Debe renombrar la carpeta <code>Formatos</code> ubicada en:</p>
+<p><div class="highlight"><pre><span></span><code>C:/Aplicaciones/Componentes Pecano/Formatos
+</code></pre></div>
+con el siguiente nombre</p>
+<div class="highlight"><pre><span></span><code>C:/Aplicaciones/Componentes Pecano/Formatosyyy
+</code></pre></div>
+<p>Asegúrese de que ningún proceso esté utilizando la carpeta antes de realizar el cambio.</p>
+</div>
+<p>Desde la carpeta actualizada:</p>
+<ul>
+<li>Ejecutar como administrador: <code>z – Actualizar Pecano.bat</code></li>
+</ul>
+<p>Luego en:
+  <div class="highlight"><pre><span></span><code>C:/Aplicaciones/Pecano
+</code></pre></div></p>
+<ul>
+<li>Ejecutar <code>INSTALACION_RAPIDA.exe</code></li>
+</ul>
+<div class="admonition info inline end">
+<p class="admonition-title">OJO</p>
+<p>Pedirá reiniciar, <strong>NO</strong> reiniciar en este momento</p>
+</div>
+<p>Después:</p>
+<ul>
+<li>Eliminar la carpeta “Formatos” recién creada</li>
+<li>Renombrar <code>Formatosyyy</code> nuevamente a <code>Formatos</code></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia</p>
+<p>Cambiar el formato de fecha de Windows para compatibilidad, puede cambiar este formato desde la configuracion de windows (Region)</p>
+</div>
+<hr />
+<h2 id="verificar-que-la-computadora-este-en-la-lista">Verificar que la computadora esté en la lista</h2>
+<ul>
+<li>Abrir PECANO e iniciar sesión</li>
+</ul>
+<p>Si aparece el mensaje <strong>"Su computadora no está registrada"</strong>, ir a:</p>
+<p><code>Pecano &gt; Central Contable &gt; Equipos &gt; Nuevo</code></p>
+<p>Agregar manualmente la máquina desde el sistema central.</p>
+<!-- ![Imagen registro equipo](img/registro_equipo.png) -->
+
+<hr />
+<blockquote>
+<p>💡 Recomendación: Documenta cualquier cambio de configuración adicional en cada estación para evitar futuros errores.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../js/password-generator.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

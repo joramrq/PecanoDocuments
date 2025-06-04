@@ -1,4 +1,5 @@
 site_name: Pecano ERP
+site_url: https://joramrq.github.io/PecanoDocuments/
 repo_url: https://github.com/joramrq/PecanoDocuments
 theme:
   name: material
